@@ -1,0 +1,14 @@
+<RCC>
+    <qresource prefix="/">
+        <file alias="qtquickcontrols2.conf">resources/styles/qtquickcontrols2.conf</file>
+    </qresource>
+    <qresource prefix="/audios">
+        <file alias="beep_1.wav">resources/audios/beep_1.wav</file>
+        <file alias="beep_2.wav">resources/audios/beep_2.wav</file>
+        <file alias="beep_3.wav">resources/audios/beep_3.wav</file>
+    </qresource>
+    <qresource prefix="/images">
+        <file alias="qt_logo.png">resources/images/qt_logo.png</file>
+        <file alias="cmake_logo.png">resources/images/cmake_logo.png</file>
+    </qresource>
+</RCC>
