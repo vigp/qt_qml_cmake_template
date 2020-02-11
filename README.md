@@ -13,13 +13,11 @@ tree -d
 │   ├── resources
 │   │   ├── audios
 │   │   ├── fonts
-│   │   │   ├── Roboto
-│   │   │   └── SFPro
-│   │   │       ├── OpenType
-│   │   │       └── TrueType
+│   │   │   └── Roboto
 │   │   ├── images
 │   │   └── styles
 │   └── src
 └── app_libs
+
 ```
 
