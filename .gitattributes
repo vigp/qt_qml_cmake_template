@@ -1,0 +1,2 @@
+*.* linguist-language=C++
+*.qml linguist-detectable=false
