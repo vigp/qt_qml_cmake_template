@@ -11,8 +11,8 @@ set(QT_MODULES_TO_USE Core Gui Widgets Quick QuickControls2 Qml Concurrent Netwo
 
 find_package(Qt5 COMPONENTS ${QT_MODULES_TO_USE} REQUIRED)
 
-#include_directories(${Qt5Widgets_INCLUDE_DIRS} ${Qt5Core_INCLUDE_DIRS} ${Qt5Gui_INCLUDE_DIRS} ${QtQml_INCLUDE_DIRS} ${Qt5Quick_INCLUDE_DIRS})
-#add_definitions(${Qt5Core_DEFINITIONS} ${Qt5Gui_DEFINITIONS} ${QtQml_DEFINITIONS} ${Qt5Quick_DEFINITIONS})
+include_directories(${Qt5Widgets_INCLUDE_DIRS} ${Qt5Core_INCLUDE_DIRS} ${Qt5Gui_INCLUDE_DIRS} ${QtQml_INCLUDE_DIRS} ${Qt5Quick_INCLUDE_DIRS})
+add_definitions(${Qt5Core_DEFINITIONS} ${Qt5Gui_DEFINITIONS} ${QtQml_DEFINITIONS} ${Qt5Quick_DEFINITIONS})
 add_definitions(${QT_DEFINITIONS})
 
 ## qt resources files
