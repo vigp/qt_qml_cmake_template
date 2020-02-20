@@ -30,13 +30,17 @@ set(SOURCES
     ./src/xyz.cpp
     )
 
-#if(NOT DEFINED HEADERS)
-#    file(GLOB HEADERS ${CMAKE_CURRENT_SOURCE_DIR}/*.h)
-#endif()
+#[[
+if(NOT DEFINED HEADERS)
+    file(GLOB HEADERS ${CMAKE_CURRENT_SOURCE_DIR}/*.h)
+endif()
+]]
 
-#if(NOT DEFINED SOURCES)
-#    file(GLOB SOURCES ${CMAKE_CURRENT_SOURCE_DIR}/*.cpp)
-#endif()
+#[[
+if(NOT DEFINED SOURCES)
+    file(GLOB SOURCES ${CMAKE_CURRENT_SOURCE_DIR}/*.cpp)
+endif()
+]]
 
 ## not for qt creator IDE
 #source_group("Header Files" FILES ${HEADERS}) ## does not work in qt creator 5
